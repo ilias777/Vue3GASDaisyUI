@@ -6,6 +6,14 @@ export default [
   {
     name: 'app/files-to-lint',
     files: ['**/*.{js,mjs,jsx,vue}'],
+    languageOptions: {
+      globals: {
+        HtmlService: 'readonly',
+      },
+      env: {
+        'google-apps-script': true,
+      },
+    },
   },
 
   {
