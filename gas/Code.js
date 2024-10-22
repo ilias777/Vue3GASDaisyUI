@@ -3,5 +3,5 @@ function doGet(e) {
     .evaluate()
     .addMetaTag('viewport', 'width=device-width, initial-scale=1.0')
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL)
-    .setTitle('Vue3 GAS')
+    .setTitle('Vue3 GAS with DaisyUI')
 }
