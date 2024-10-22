@@ -5,3 +5,11 @@ function doGet(e) {
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL)
     .setTitle('Vue3 GAS with DaisyUI')
 }
+
+function getSheetData() {
+  let ss = SpreadsheetApp.getActiveSpreadsheet()
+  let ws = ss.getSheetByName('Sheet1')
+  let data = ws.getRange(2, 1, ws.getLastRow() - 1, 3).getValues()
+
+  return data
+}
