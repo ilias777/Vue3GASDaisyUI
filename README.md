@@ -26,7 +26,7 @@ DaisyUI. As a Backend we are using Google Sheet and Google Apps Script.
 Clone the project:
 
 ```shell
-git clone
+git clone git@github.com:ilias777/Vue3GASDaisyUI.git
 ```
 
 Navigate to the root folder:
