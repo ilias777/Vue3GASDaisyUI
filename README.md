@@ -155,4 +155,4 @@ Now you are ready to build a beautiful Web App.
 
 <hr>
 
-### How this works is explained in [How To]()
+### How this works is explained in [How To](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto.md)
