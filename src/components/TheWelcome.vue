@@ -23,7 +23,23 @@ onMounted(() => {
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline mb-5">Text with tailwind classes</h1>
-  <button class="btn mb-5">DaisyUI Button</button>
-  <p>These are the data from SpreadsheetApp: {{ spreadsheetData }}</p>
+  <div class="homeview">
+    <div>
+      <h1 class="text-3xl font-bold underline mb-5">
+        Text with tailwind classes
+      </h1>
+      <button class="btn mb-5">DaisyUI Button</button>
+      <p>These are the data from SpreadsheetApp: {{ spreadsheetData }}</p>
+    </div>
+  </div>
 </template>
+
+<style>
+@media (min-width: 1024px) {
+  .homeview {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+}
+</style>
