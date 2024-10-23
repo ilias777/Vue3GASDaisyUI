@@ -74,11 +74,20 @@ Clone the Google Script with `clasp` in the ./gas folder:
 clasp clone --rootDir ./gas <scriptID>
 ```
 
-Move `.clasp.json` file from the ./gas folder to the root directory:
+Remove the `.clasp.json` file from the root directory:
+
+```shell
+rm .clasp.json
+```
+
+After clone the Google Script, a `.clasp.json` file is created in the ./gas folder.
+Move it to the root directory:
 
 ```shell
 mv ./gas/.clasp.json .
 ```
+
+This contains the `scriptID` from your Google Script to connect with it.
 
 #### Add `doGet` method
 
