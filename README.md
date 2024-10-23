@@ -80,7 +80,7 @@ Remove the `.clasp.json` file from the root directory:
 rm .clasp.json
 ```
 
-After clone the Google Script, a `.clasp.json` file is created in the ./gas folder.
+After cloning the Google Script, a `.clasp.json` file is created in the ./gas folder.
 Move it to the root directory:
 
 ```shell
