@@ -115,7 +115,7 @@ Go to `./gas/Code.js` and put this function:
 ```javascript
 function writeValues(val) {
   let ss = SpreadsheetApp.getActiveSpreadsheet()
-  let ws = ss.getSheetByName('Questions')
+  let ws = ss.getSheetByName('Sheet1')
   ws.getRange(ws.getLastRow() + 1, 1, 1, val.length).setValues([val])
 }
 ```
