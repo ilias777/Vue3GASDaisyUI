@@ -20,6 +20,12 @@ const getDataFromSheet = () => {
 onMounted(() => {
   getDataFromSheet()
 })
+
+const dataToSheet = ['four', 'five', 'six']
+
+const writeDataToSheet = () => {
+  google.script.run.withSuccessHandler().writeValues(dataToSheet)
+}
 </script>
 
 <template>
@@ -28,7 +34,7 @@ onMounted(() => {
       <h1 class="text-3xl font-bold underline mb-5">
         Text with tailwind classes
       </h1>
-      <button class="btn mb-5">DaisyUI Button</button>
+      <button class="btn mb-5" @click="writeDataToSheet">DaisyUI Button</button>
       <p>These are the data from SpreadsheetApp: {{ spreadsheetData }}</p>
     </div>
   </div>

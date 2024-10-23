@@ -13,3 +13,9 @@ function getSheetData() {
 
   return data
 }
+
+function writeValues(val) {
+  let ss = SpreadsheetApp.getActiveSpreadsheet()
+  let ws = ss.getSheetByName('Sheet1')
+  ws.getRange(ws.getLastRow() + 1, 1, 1, val.length).setValues([val])
+}
