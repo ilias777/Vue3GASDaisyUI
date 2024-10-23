@@ -69,7 +69,8 @@ Go to Google Docs and create a new Spreadsheet. Rename the Spreadsheet and add s
 testing reading data and adding data to it.
 
 From there go to the menu above and go to `Extensions` &rarr; `Apps Script`. A new page is loading
-with your script. Rename the script as you like and copy the `scriptID` from this script.
+with your script. Rename the script as you like and copy the `scriptID` from this script
+(https://script.google.com/macros/s/<scriptID>/edit).
 
 #### Install `clasp`
 
@@ -95,7 +96,7 @@ Create a `./gas` folder in the root of your project:
 mkdir gas
 ```
 
-Clone the script with clasp in the ./gas folder:
+Clone the Google Script with `clasp` in the ./gas folder:
 
 ```shell
 clasp clone --rootDir ./gas <scriptID>
