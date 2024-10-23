@@ -275,6 +275,12 @@ If you are now click on the button, the values are added to the Spreadsheet.
 
 <hr>
 
+### Preview
+
+<img width="1732" alt="vuegas" src="https://github.com/user-attachments/assets/aa1ca5a4-6c61-49da-9ab8-c60185d900a0">
+
+<hr>
+
 From here you can start build you own app with Vue, Tailwind and DaisyUI.
 
 Happy coding!!
