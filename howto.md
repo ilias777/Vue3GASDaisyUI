@@ -223,7 +223,7 @@ function getSheetData() {
 
 In the `TheWelcome.vue` file:
 
-```
+```vue
 import { ref, onMounted } from 'vue'
 
 const spreadsheetData = ref([])
@@ -257,7 +257,7 @@ function writeValues(val) {
 
 In `TheWelcome.vue` file add this code:
 
-```
+```vue
 const dataToSheet = ['four', 'five', 'six']
 
 const writeDataToSheet = () => {
