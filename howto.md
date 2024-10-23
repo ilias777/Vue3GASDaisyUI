@@ -4,7 +4,7 @@
 
 #### Create a Vue project
 
-```shell
+```zsh
 npm create vue@latest
 ```
 
@@ -16,7 +16,7 @@ This [vite-plugin-singlefile](https://github.com/richardtallent/vite-plugin-sing
 allows you to inline all JavaScript and CSS resources directly into the final dist/index.html file.
 By doing this, your entire web app can be embedded and distributed as a single HTML file.
 
-```shell
+```bash
 npm install vite-plugin-singlefile --save-dev
 ```
 
