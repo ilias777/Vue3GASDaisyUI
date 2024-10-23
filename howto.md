@@ -190,7 +190,7 @@ Now your Web App is ready to use!
 - Delete import statement `@import './base.css';` from `main.css`
 - Go to `TheWelcome.vue` file, remove the template content and add this:
 
-```vue
+```html
 <template>
   <h1 class="text-3xl font-bold underline mb-5">Text with tailwind classes</h1>
   <button class="btn">DaisyUI Button</button>
@@ -223,7 +223,7 @@ function getSheetData() {
 
 In the `TheWelcome.vue` file:
 
-```vue
+```javascript
 import { ref, onMounted } from 'vue'
 
 const spreadsheetData = ref([])
@@ -257,7 +257,7 @@ function writeValues(val) {
 
 In `TheWelcome.vue` file add this code:
 
-```vue
+```javascript
 const dataToSheet = ['four', 'five', 'six']
 
 const writeDataToSheet = () => {
