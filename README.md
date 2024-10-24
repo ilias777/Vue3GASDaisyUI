@@ -35,6 +35,12 @@ Navigate to the root folder:
 cd Vue3GASDaisyUI
 ```
 
+Remove `git` and add your own repo later if you want:
+
+```shell
+rm -rf .git*
+```
+
 Install dependencies:
 
 ```shell
