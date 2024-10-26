@@ -164,10 +164,13 @@ this file is moved to ./gas folder and lastly `clasp` pushes the files to the Go
 
 #### Fix Vue Router for Google Apps Script Web App
 
-To work properly with Vue Router change "history" property, add this:
+To work properly with Vue Router change `history` to `createWebHashHistory()`.
+
+Go to `vite.config.js` file and add the plugin:
 
 ```javascript
 const { createRouter, createWebHashHistory } = VueRouter
+
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
