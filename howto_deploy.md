@@ -74,29 +74,23 @@ Google Script with `clasp open` and make the same steps again to create the new 
 
 # Test your Web-App before deploy
 
-After changes push the files to Google Script:
+To test your Web-App before deploy it, go first to Google Script:
+
+```shell
+clasp open
+```
+
+The Script opens in the browser. Press "Deploy" and then "Test Deployment".
+
+The Web-App opens in a new tab. Keep it open in your browser.
+
+Go to your editor and make the needed changes. If you want to see how it looks, push the files to
+Google Script:
 
 ```shell
 npm run build
 ```
 
-Now go to your Google Script:
+Now go to your browser, reload the page and now all the changes are applied.
 
-```shell
-clasp open --webapp
-```
-
-A list appears with your Web-App deployments. Choose your last deployment and your Web-App opens in
-the browser.
-
-Keep the Web-App open in your browser.
-
-After making changes to your App, push your changes:
-
-```shell
-npm run build
-```
-
-Go to your browser and reload the page. The change are now applied.
-
-With this you can test your Web-App before creating a new deployment.
+With this method you can test your Web-App before creating a new deployment.
