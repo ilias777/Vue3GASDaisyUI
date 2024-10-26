@@ -141,10 +141,10 @@ function writeValues(val) {
 npm run build
 ```
 
-#### Deploy and test your Web App
+## Deploy and test your Web App
 
-Read here how to deploy and test the Web-App.
+Read [here](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto_deploy.md) how to deploy and test the Web-App.
 
 <hr>
 
-### How this works is explained in [How To](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto.md)
+## How this works is explained in [How To](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto.md)
