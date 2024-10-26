@@ -123,6 +123,9 @@ function getSheetData() {
 }
 ```
 
+Read the [How-To](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto.md) to see how to call
+this function from a Vue file to read the data from the Spreadsheet.
+
 #### Add function to add data to Spreadsheet
 
 Go to `./gas/Code.js` and put this function:
@@ -134,6 +137,9 @@ function writeValues(val) {
   ws.getRange(ws.getLastRow() + 1, 1, 1, val.length).setValues([val])
 }
 ```
+
+Read the [How-To](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto.md) to see how to add
+data to the Spreadsheet from a Vue file.
 
 #### Push files to Google Script
 
