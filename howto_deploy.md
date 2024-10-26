@@ -6,11 +6,10 @@ You can Deploy your Web-App in two different ways.
 
 #### From terminal with clasp
 
-Make sure that you have in the `.appsscript.json` file this option:
+Make sure that you have added in the `.appsscript.json` file the `webapp` option:
 
 ```json
 {
-  // ...
   "webapp": {
     "executeAs": "USER_DEPLOYING",
     "access": "MYSELF"
