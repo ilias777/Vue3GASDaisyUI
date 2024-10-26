@@ -141,23 +141,9 @@ function writeValues(val) {
 npm run build
 ```
 
-#### Deploy your Web App
+#### Deploy and test your Web App
 
-After pushing the files to Google Script, go to the Google Script website. You can open the script
-with:
-
-```shell
-clasp open
-```
-
-If you don't use `clasp open` and your script is already open in the browser, make sure to reload
-the page before deploy.
-
-Go to `Deploy` and make a new deployment and chose "Web App". Set a description and press deploy.
-
-Press the Web App URL to show your Web App.
-
-Now you are ready to build a beautiful Web App.
+Read here how to deploy and test the Web-App.
 
 <hr>
 
