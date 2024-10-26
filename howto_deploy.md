@@ -10,7 +10,7 @@ Make sure that you have in the `.appsscript.json` file this option:
 
 ```json
 {
-  ...
+  // ...
   "webapp": {
     "executeAs": "USER_DEPLOYING",
     "access": "MYSELF"
