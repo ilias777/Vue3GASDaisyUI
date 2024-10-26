@@ -145,6 +145,6 @@ npm run build
 
 Read [here](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto_deploy.md) how to deploy and test the Web-App.
 
-<hr>
+## How to
 
-## How this works is explained in [How To](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto.md)
+How this works is explained in [How To](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto.md).
