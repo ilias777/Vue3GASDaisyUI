@@ -80,7 +80,8 @@ To test your Web-App before deploy it, go first to Google Script:
 clasp open
 ```
 
-The Script opens in the browser. Press "Deploy" and then "Test Deployment".
+The Script opens in the browser. Press "Deploy" and then "Test Deployment". Now click the URL to
+open the Web-App.
 
 The Web-App opens in a new tab. Keep it open in your browser.
 
