@@ -147,6 +147,14 @@ data to the Spreadsheet from a Vue file.
 npm run build
 ```
 
+<hr>
+
+### Preview
+
+<img width="1732" alt="vuegas" src="https://github.com/user-attachments/assets/aa1ca5a4-6c61-49da-9ab8-c60185d900a0">
+
+<hr>
+
 ## Deploy and test your Web App
 
 Read [here](https://github.com/ilias777/Vue3GASDaisyUI/blob/main/howto_deploy.md) how to deploy and test the Web-App.
