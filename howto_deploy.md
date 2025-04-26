@@ -23,13 +23,13 @@ For "access" you can choose "MYSELF" or "ANYONE". For more information you can r
 After pushing your changes in the first time with `npm run build`, type in the terminal:
 
 ```shell
-clasp deploy --description "Message"
+clasp create-deployment --description "Message"
 ```
 
 or
 
 ```shell
-clasp deploy -d "Message"
+clasp create-deployment -d "Message"
 ```
 
 The second time you have to add the deployId to the command. To see the deployIds type:
@@ -42,42 +42,23 @@ A list appears with your deployments. Copy the Id from your last deployment and 
 command:
 
 ```shell
-clasp deploy <deployId> -d "Message"
+clasp create-deployment -d "Message" -i <deployId>
 ```
 
 To see your Web-App in the browser type:
 
 ```shell
-clasp open --webapp
+clasp open-script
 ```
 
-a list appears with all your deployments. Choose your last deployment and the Web-App opens in the
-browser.
-
-## Second way to deploy
-
-#### From your browser
-
-After pushing the changes with `npm run build`, open your Google Script:
-
-```shell
-clasp open
-```
-
-The Google Script opens in the browser.
-
-Press the "Deploy" button and select "New Deployment". Add a description, choose your options and
-press "Deploy". From there you can copy the new URL and you can open the Web-App.
-
-After changes to your Web-App and pushing the files to Google Script, you have to open again the
-Google Script with `clasp open` and make the same steps again to create the new deployment.
+The script opens in your browser. Press "Deploy" and "Manage Deployments". Click on the URL and your web app opens in a new tab.
 
 # Test your Web-App before deploy
 
 To test your Web-App before deploy it, go first to Google Script:
 
 ```shell
-clasp open
+clasp open-script
 ```
 
 The Script opens in the browser. Press "Deploy" and then "Test Deployment". Now click the URL to
