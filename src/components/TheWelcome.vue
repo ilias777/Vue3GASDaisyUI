@@ -29,7 +29,9 @@ const writeDataToSheet = () => {
       <h1 class="text-3xl font-bold underline mb-5">
         Text with tailwind classes
       </h1>
-      <button class="btn mb-5" @click="writeDataToSheet">DaisyUI Button</button>
+      <button class="btn btn-secondary mb-5" @click="writeDataToSheet">
+        DaisyUI Button
+      </button>
       <p>These are the data from SpreadsheetApp: {{ spreadsheetData }}</p>
     </div>
   </div>

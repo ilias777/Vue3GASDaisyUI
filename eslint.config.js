@@ -10,9 +10,9 @@ export default [
       globals: {
         HtmlService: 'readonly',
       },
-      env: {
-        'google-apps-script': true,
-      },
+      // env: {
+      //   'google-apps-script': true,
+      // },
     },
   },
 

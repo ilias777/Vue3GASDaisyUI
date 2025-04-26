@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-undef */
 function doGet(e) {
   return HtmlService.createTemplateFromFile('index.html')
     .evaluate()
